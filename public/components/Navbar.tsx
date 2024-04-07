@@ -3,7 +3,7 @@ import '../styles/fonts.css'
 
 export default function Navbar(){
     return(
-        <main className="bg-[#FFFFFF] flex h-[72px] custom-shadow">
+        <main className="bg-[#FFFFFF] flex h-[72px] custom-shadow ">
             <div className="p-2">
             <Image className="w-[217px] h-[54px]"
             src="/Images/icon.png"
