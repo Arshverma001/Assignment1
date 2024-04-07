@@ -10,12 +10,12 @@ export default function Reviews(){
            
             <div className="relative z-50 element1 w-[1069px] h-[349px] rounded-3xl  flex justify-center items-center ">
 
-            <div className="absolute inset-0 flex justify-center items-center ">
+            <div className="absolute inset-0 flex justify-center items-center border-[10px] border-white rounded-3xl">
           
             <div className="relative z-50 ">
             <div className="w-[98px] h-[98px] rounded-full bg-gradient-to-br relative right-[450px] opacity-70 blur-sm  z-0 from-[#FC4D6D] to-[#FDA02F]"></div>
             <div className="w-[49px] h-[49px] rounded-full bg-gradient-to-br relative top-[270px] opacity-70 blur-sm right-[350px] z-0 from-[#FC4D6D] to-[#FDA02F]"></div>
-            <div className="w-[30px] h-[30px] rounded-full bg-gradient-to-br relative bottom-20   left-[300px] blur-lg z-0 from-[#FC4D6D] to-[#FDA02F]"></div>
+            <div className="w-[30px] h-[30px] rounded-full bg-gradient-to-br relative bottom-20 left-[300px] blur-lg z-0 from-[#FC4D6D] to-[#FDA02F]"></div>
             <div className="w-[244px] h-[244px] rounded-full bg-gradient-to-br relative  top-[70px] left-[550px] opacity-70 blur-sm z-0 from-[#FC4D6D] to-[#FDA02F]"></div>
             </div>
             </div>
