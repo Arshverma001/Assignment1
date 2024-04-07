@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,10 +25,75 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  overflow: hidden;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.custom-shadow {
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.24);
+}
+.char-spacing {
+  letter-spacing: 2px; 
+}
+.custom-round{
+  border-radius: 1px 90px;
+}
+.custom-round1{
+  border-radius: 16px 16px 35px 0px;
+}
+
+.bg-gradient-custom {
+    background: linear-gradient(170.37deg, rgba(255, 255, 255, 0.4) 2.82%, rgba(255, 255, 255, 0.1) 95.21%);
+    box-shadow: 4px 4px 7px 0px rgba(62, 62, 62, 0.17);
+    box-shadow: -4px -4px 11px 0px rgba(95, 95, 95, 0.25);
+}
+
+.shadow{
+box-shadow: 4px 4px 7px 0px rgba(62, 62, 62, 0.17);
+box-shadow: -4px -4px 11px 0px rgba(95, 95, 95, 0.25);
+
+}
+
+.toptutor{
+  background: linear-gradient(170.37deg, rgba(255, 255, 255, 0.4) 2.82%, rgba(255, 255, 255, 0.1) 95.21%);
+  border: 0.5px solid;
+  border-image-source: linear-gradient(151.21deg, rgba(255, 255, 255, 0.08) 53.91%, #FFFFFF 98.64%);
+  box-shadow: 4px 4px 7px 0px #3E3E3E2B;
+  border-radius: 16px 0px 20px 0px;
+}
+
+.cardshadow{
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.element {
+  border: 1px solid #F8F8F8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.blob{
+  background: radial-gradient(50% 50% at 50% 50%, rgba(253, 160, 47, 0.27) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.border-gradient {
+  border-width: 2px;
+  border-style: solid;
+  background: linear-gradient(to right, #FC4D6D, #FDA02F);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent; 
+}
+
+.snap-container {
+  height: 100vh; /* Full height of viewport */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scroll-snap-type: y mandatory; /* Enable vertical scroll snapping */
+}
+
+/* Individual snap child */
+.snap-child {
+   /* Full height of viewport */
+  scroll-snap-align: start; /* Snap child elements to the start of the container */
 }
